@@ -1,0 +1,23 @@
+{
+  "name": "jsonserver",
+  "version": "1.0.0",
+  "description": "Fake REST API for testing",
+  "homepage": "https://github.com/Kerry254/todo-list-app#readme",
+  "bugs": {
+    "url": "https://github.com/Kerry254/todo-list-app/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kerry254/todo-list-app.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "script.js",
+  "scripts": {
+    "json:server": "json-server --watch db.json"
+  },
+  "dependencies": {
+    "json-server": "^1.0.0-beta.15"
+  }
+}

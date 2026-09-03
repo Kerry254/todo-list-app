@@ -1,0 +1,55 @@
+{
+  "tasks": [],
+  "users": [
+    {
+      "id": "1",
+      "firstName": "Stanley",
+      "lastName": "Mbugua",
+      "email": "m28@gmail.com",
+      "age": "35",
+      "companyId": "1"
+    },
+    {
+      "id": "2",
+      "firstName": "Shapana",
+      "lastName": "Shibdeen",
+      "email": "sapna@gmail.com",
+      "age": "19",
+      "companyId": "1"
+    },
+    {
+      "id": "3",
+      "firstName": "Olivia",
+      "lastName": "Mwangi",
+      "email": "livy@gmail.com",
+      "age": "22",
+      "companyId": "3"
+    },
+    {
+      "id": "4",
+      "firstName": "Nimrod",
+      "lastName": "Hezron",
+      "email": "nimmy@gmail.com",
+      "age": "45",
+      "companyId": "2"
+    }
+  ],
+  "companies": [
+    {
+      "id": "1",
+      "name": "Schema",
+      "description": "Structuring data and systems for reliable, scalable software."
+    },
+    {
+      "id": "2",
+      "name": "Dual",
+      "description": "Bridging two worlds — hardware and software working as one."
+    },
+    {
+      "id": "3",
+      "name": "Enigma",
+      "description": "Solving complex problems with smart, secure technology."
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
